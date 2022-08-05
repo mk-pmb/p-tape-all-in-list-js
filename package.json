@@ -1,5 +1,5 @@
 { "name": "p-tape-all-in-list",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run p-tape test functions from a list, using the function name as the test name.",
   "keywords": [
   ],
@@ -21,7 +21,10 @@
   "scripts": { "test": "elp" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
-  "dependencies": {},
+  "dependencies": {
+    "p-fatal": "^0.1.3",
+    "p-tape": "^4.0.2"
+  },
   "devDependencies": {
     "eslint-config-nodejs-pmb": "^0.3.5",
     "eslint-plugin-json-light-pmb": "^1.0.7",
