@@ -1,0 +1,34 @@
+{ "name": "p-tape-all-in-list",
+  "version": "0.1.0",
+  "description": "Run p-tape test functions from a list, using the function name as the test name.",
+  "keywords": [
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/p-tape-all-in-list-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/p-tape-all-in-list-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/p-tape-all-in-list-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "ptl.mjs",
+  "scripts": { "test": "elp" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
